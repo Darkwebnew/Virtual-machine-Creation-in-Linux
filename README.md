@@ -67,8 +67,7 @@ cat /etc/hostname
 ```
 
 ## OUTPUT
-### NAME: PRAVEEN B V
-### REG NO: 212222100036
+
 ![Screenshot 2024-11-21 084703](https://github.com/user-attachments/assets/ce9d74b4-870d-47dc-b25d-61922814514e)
 
 ## RESULT
