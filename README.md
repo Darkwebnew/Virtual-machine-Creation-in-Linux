@@ -1,4 +1,4 @@
-# VIRTUAL MACHINE CREATION IN LINUX
+# EX - 3 VIRTUAL MACHINE CREATION IN LINUX
 
 ## AIM
 To install a Linux virtual machine (VM) using CentOS on VirtualBox 
