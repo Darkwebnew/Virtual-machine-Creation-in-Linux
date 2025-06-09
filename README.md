@@ -68,7 +68,7 @@ cat /etc/hostname
 
 ## OUTPUT
 
-![Screenshot 2024-11-21 084703](https://github.com/user-attachments/assets/ce9d74b4-870d-47dc-b25d-61922814514e)
+![image](https://github.com/user-attachments/assets/a8fb51ea-f2eb-4caa-8e9e-0440c75ead41)
 
 ## RESULT
 The experiment to create and configure a Linux virtual machine (CentOS) using VirtualBox or VMware Workstation was successfully completed.
