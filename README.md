@@ -1,74 +1,67 @@
 # EX - 3 VIRTUAL MACHINE CREATION IN LINUX
 
-## AIM
-To install a Linux virtual machine (VM) using CentOS on VirtualBox 
+## 🧪 AIM
+To install and configure a Linux virtual machine using CentOS on VirtualBox, providing a secure environment for learning and testing Linux-based applications.
 
-## PROBLEM STATEMENT
-This experiment involves setting up a virtual machine with CentOS.The virtual machine provides a controlled environment to practice Linux commands, test applications, and develop software without impacting the host operating system.
+---
 
-## **ALGORITHM**  
+## 📝 PROCEDURE
 
-### **Step 1**: Open VirtualBox or VMware Workstation  
-Launch the virtualization software on your system.
+### Step 1: Open VirtualBox or VMware Workstation
+- Launch **Oracle VirtualBox** or **VMware Workstation** on your host system.
 
-### **Step 2**: Create a New Virtual Machine  
-1. Navigate to **File → New** to create a new virtual machine.
-   
-### **Step 3**: Configure Virtual Machine Details  
-1. Select **Linux** as the operating system type.  
-2. Choose **CentOS** as the version.  
+### Step 2: Create a New Virtual Machine
+- Go to **File > New**.
+- Select **Linux** as the OS type and **CentOS** as the version.
 
-### **Step 4**: Allocate Resources  
-1. Select the CentOS ISO file you downloaded.  
-2. Set the following resources:
-   - **Base Memory**: 1024 MB (1 GB)  
-   - **Processor Core(s)**: 1  
-   - **Disk Size**: At least 20 GB  
-3. Complete the configuration by clicking **Finish**.
+### Step 3: Configure Virtual Machine Details
+- Select the downloaded **CentOS ISO** file.
+- Allocate the following resources:
+  - **Base Memory**: 1024 MB (1 GB)
+  - **Processor Core(s)**: 1
+  - **Hard Disk Size**: At least 20 GB
+- Complete setup by clicking **Finish**.
 
-### **Step 5**: Configure Network Settings  
-1. Select the created VM and go to **Settings**.  
-2. Navigate to the **Network** tab:  
-   - Set **Adapter 1** to **NAT** (for internet access through the host).  
-3. Save the network settings by clicking **OK**.
+### Step 4: Configure Network Settings
+- Select the newly created VM → **Settings > Network**.
+- Under **Adapter 1**, choose **NAT** for internet access through host.
+- Click **OK** to save the configuration.
 
-### **Step 6**: Start the Virtual Machine and Install CentOS  
-1. Click **Start** to boot the VM using the CentOS ISO image.  
-2. Follow the CentOS installation steps:
-   - Set a password for the root user during the setup process.  
-3. After installation, log in to CentOS and open a terminal to begin using the command line.
+### Step 5: Start the Virtual Machine and Install CentOS
+- Click **Start** to launch the VM.
+- Follow CentOS installation steps:
+  - Select disk partitioning
+  - Set root password
+  - Complete installation
+- After installation, **log in to CentOS**.
 
+---
 
-## **COMMANDS**  
+## 💻 BASIC LINUX COMMANDS USED
 
-#### Switch to User:
-```
+```bash
+# Switch to a user
 su username
-```
-#### View IP Address:
-```
+
+# View IP address
 ip a
-```
-#### Create a Directory:
-```
+
+# Create a directory
 mkdir <directory_name>
-```
-#### Change to the New Directory:
-```
+
+# Navigate to the directory
 cd <directory_name>
-```
-#### Edit the Hostname File:
-```
+
+# Edit hostname file
 vi /etc/hostname
-```
-#### View the Content of the Hostname File:
-```
+
+# View hostname file contents
 cat /etc/hostname
 ```
 
-## OUTPUT
+## 📸 OUTPUT
 
 ![image](https://github.com/user-attachments/assets/a8fb51ea-f2eb-4caa-8e9e-0440c75ead41)
 
-## RESULT
-The experiment to create and configure a Linux virtual machine (CentOS) using VirtualBox or VMware Workstation was successfully completed.
+## ✅ RESULT
+The Linux virtual machine (CentOS) was successfully created, configured, and tested using VirtualBox. Basic Linux operations were verified, demonstrating the ability to use Linux in a virtualized environment for learning and development.
